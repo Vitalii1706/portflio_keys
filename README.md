@@ -1,12 +1,12 @@
 # **Site layout project.**
 
-### Mobile version of the project with an extension up to 400px. And a desktop version with an extension of more than 400px.
+### Desktop version 1920px.
 
 ---
 
 ---
 
-## [Link](https://Vitalii1706.github.io/Maket1/)
+## [Link](https://vitalii1706.github.io/portflio_keys/)
 
 ---
 
@@ -32,4 +32,4 @@
 
 ## Vitalii Kitral
 
-### [linkedin](www.linkedin.com/in/vitalii-kitral-7a1b29213)
+
