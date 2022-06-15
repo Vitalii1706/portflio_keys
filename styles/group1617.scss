@@ -1,0 +1,35 @@
+.group1617{
+    width: 1282px;
+    height: 127px;
+    margin-left: 320px;
+    display: flex;
+
+    &__product{       
+        width: 460px;
+        height: 52px;
+        font-family: 'TT Firs Neue';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 40px;
+        line-height: 52px;
+        color: #FFFFFF;
+        margin-right: 75px;
+    }
+
+    &__ux-reasearch{
+        width: 747px;
+        height: 127px;
+        font-family: 'TT Firs Neue';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 160%;
+        color: #FFFFFF;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;        
+
+    }
+
+}
+

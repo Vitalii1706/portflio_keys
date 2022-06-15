@@ -1,0 +1,67 @@
+$fontSize_xs: 14px;
+$fontSize_s: 15px;
+$fontSize_s1: 16px;
+$fontSize_s2: 18px;
+$fontSize_s3: 20px;
+$fontSize_m-: 22px;
+$fontSize_m: 26px;
+$fontSize_l: 32px;
+$fontSize_xl: 40px;
+$fontSize_xxl: 50px;
+
+$fontFamilyPrimary: 'TT Firs Neue', sans-serif;
+
+$fontWeigtL: 500;
+$fontWeigtM: 400;
+
+$borderRadius-button: 2px;
+
+
+$color-black: #000000;
+$color-black-second:#060606;
+$color-white: #f8f8f8;
+$color-white-second:#FFFFFF;
+$color-grey: #969A9F;
+$color-blue: #00AAD6;
+$color-linear-basic: linear-gradient(90.08deg, #215AEE 0.06%, #00AAD6 102.4%);
+$color-linear:linear-gradient(180deg, rgba(6, 6, 6, 0) 0%, #09D0F3 8.27%, #3198F4 21.82%,
+ #733BF5 36.92%, #4822F7 52.55%, #733BF5 65.57%, #3198F4 79.63%, #09D0F3 92.13%, rgba(6, 6, 6, 0) 100%);
+
+
+
+@mixin fontH1 {
+    font-family: $fontFamilyPrimary;
+    font-style: normal;
+    font-weight: $fontWeigtL;
+    font-size: $fontSize_xl;
+    line-height: 52px;
+    color: $color-white-second;   
+   
+}
+
+@mixin fontH2 {
+    font-family: $fontFamilyPrimary;
+    font-style: normal;
+    font-weight: $fontWeigtL;
+    font-size: $fontSize_l;
+    line-height: 41px;
+    color: $color-white-second;   
+}
+
+@mixin fontH3 {
+    font-family: $fontFamilyPrimary;
+    font-style: normal;
+    font-weight: $fontWeigtL;
+    font-size: $fontSize_m;
+    line-height: 34px;
+    color: $color-white-second;  
+}
+
+@mixin fontSeoText {
+    font-family: $fontFamilyPrimary;
+    font-style: normal;
+    font-weight: $fontWeigtM;
+    font-size: $fontSize_s;
+    line-height: 150%;
+    color: $color-white-second;  
+}

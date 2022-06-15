@@ -1,0 +1,32 @@
+.group1620{
+    position: absolute;
+    width: 1280px;
+    height: 203px;
+    left: 320px;
+    top: 4440px;
+    display: flex;
+    color: #FFFFFF;
+
+    &__challenges{
+        width: 460px;
+        height: 52px;
+        margin-right: 90px;        
+        @include fontH1;
+    }
+
+    &__text{
+        width: 730px;
+        height: 203px;
+        list-style: none;
+        font-weight: $fontWeigtM;
+        font-size: $fontSize_s2;
+        line-height: 160%;
+        
+        &1{
+            margin-bottom: 20px;
+        }
+
+    }
+    
+
+}

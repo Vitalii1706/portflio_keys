@@ -1,0 +1,43 @@
+// sass --watch styles/index.scss styles.css
+@import 'variables.scss';
+@import 'headline.scss';
+@import 'breakpoints.scss';
+@import 'common.scss';
+@import 'header.scss';
+@import 'footer.scss';
+@import 'ramka.scss';
+@import 'group1617.scss';
+@import 'group1619.scss';
+@import 'headline2.scss';
+@import 'group1618.scss';
+@import 'group1620.scss';
+@import 'group1621.scss';
+@import 'group1622.scss';
+@import 'group1625.scss';
+@import 'group1628.scss';
+@import 'adaptive.scss';
+@import 'fixed.scss';
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  
+  font-size: $fontSize_s;
+  font-family: $fontFamilyPrimary;
+  
+}
+
+
+.page {
+  width: 1920px;  
+  height: 7271px;
+  background: #060606;
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  position: relative;
+  
+}
+

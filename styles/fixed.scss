@@ -1,0 +1,61 @@
+.fixed{
+    position: fixed;
+    width: 158px;
+    height: 156px;
+    left: 1702px;
+    top: 717px;
+    color: #FFFFFF;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    
+    &__sabmit{
+        text-align: center;
+        height: 36px;
+        width: 94px;
+                   
+        font-family: 'TT Firs Neue';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 130%;
+        
+        
+
+       
+
+    }
+    /*
+    &__radius-up{
+        position: relative;
+      
+        &1{
+            position: absolute;
+            top: 62.77px;
+            left: 11.77px;
+           
+        }
+    }
+    &__radius-down{
+        
+        height: 115.25px;
+        width: 135.95px;        
+        position: fixed;
+       
+        &1{
+            
+            height: 6.726820202641782px;
+            width: 7.4085924077115575px;
+            
+            left: 7.73%;
+            right: 87.58%;
+            top: 59.62%;
+            bottom: 36.07%;
+            transform: rotate(-99.45deg);
+         
+        }
+    }*/
+
+}

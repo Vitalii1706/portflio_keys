@@ -1,0 +1,153 @@
+.header {
+    height: 110px;
+    display: flex;
+
+    &__v1 {
+        display: flex;
+        align-items: center;
+        width: 1733px;
+        height: 56px;
+        margin-top: 36px;
+        margin-left: 97px;
+                
+        &-logo {            
+            height: 35.6px;
+            width: 171.35px;
+            top: 46px;
+            border-radius: 0px;
+        }
+        &-grup24 {            
+            height: 18px;
+            margin-left: 357px;
+            border-radius: 0px;
+            font-family: $fontFamilyPrimary;
+            font-style: normal;
+            font-weight: $fontWeigtL;
+            font-size: $fontSize_xs;
+            line-height: 18px;
+            letter-spacing: 0.05em;
+            text-transform: uppercase;
+            color: #FFFFFF;
+
+            &-project {
+                width: 81px;
+                height: 18px;                        
+                margin-right: 60px;
+            }
+            
+            &-service {
+                height: 18px;
+                width: 74px;
+                    
+            }
+            &-vector {
+                height: 5px;
+                width: 6.7px;
+                left: 0.7px;
+                top: 1.7px;
+                border-radius: 0px;
+                margin-left: 3px;
+                margin-right: 60.7px;
+
+            }
+            &-aboute_us {
+                width: 77px;
+                height: 18px;
+                margin-right: 50px;
+            }
+            &-contact {
+                width: 74px;
+                height: 18px;
+
+            }
+
+        }
+        &-group1598 {
+            display: flex;
+            align-items: center;
+            height: 21px;
+            width: 255px;
+            border-radius: 0px;
+            margin-left: 121px;
+            margin-right: 40px;
+            
+            
+            &-telegram {
+                height: 16.7px;
+                width: 20px;
+                margin-right: 13px;               
+
+            }
+            &-whatsapp{
+                height: 18px;
+                width: 18px;
+                margin-right: 13px;    
+            }
+            &-number{
+                height: 21px;
+                width: 173px;
+                font-family: $fontFamilyPrimary;
+                font-style: normal;
+                font-weight: $fontWeigtL;
+                font-size: $fontSize_s1;
+                line-height: 21px;
+                color: $color-white-second;
+                margin-right: 8.5px;
+
+            }
+
+        }
+        &-button{
+            height: 56px;
+            width: 206px;
+            border-radius: 28px;
+            font-family: $fontFamilyPrimary;
+            font-style: normal;
+            font-weight: $fontWeigtL;
+            font-size: $fontSize_xs;
+            line-height: 18px;
+            text-align: center;
+            text-transform: uppercase;
+            color: #080808;
+
+        }
+        &-menu{
+            height: 36px;
+            width: 40px;
+            margin-left: 40px;
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+
+
+
+            &-line1{
+                height: 0px;
+                width: 40px;
+                border: 2px solid $color-white-second;
+                margin-top: 5px;
+                
+                
+                
+            }
+            &-line2{
+                height: 0px;
+                width: 40px;
+                border: 2px solid $color-white-second;
+                margin: 7px 0;
+                
+            }
+            &-line3{
+                height: 0px;
+                width: 40px;
+                border: 2px solid $color-white-second;
+                    
+            }
+            
+            
+
+        }
+ 
+    }
+    
+}

@@ -1,0 +1,147 @@
+.adaptive{
+    position: absolute;
+    width: 1922px;
+    height: 746px;
+    left: -2px;
+    top: 5057px;
+    color: #FFFFFF;
+    font-family: 'TT Firs Neue';
+
+    &-version{
+        position: absolute;
+        width: 620px;
+        height: 52px;
+        left: 322px;
+        top: 227px;
+        @include fontH1;
+        display: flex;
+        align-items: flex-end;
+
+        &_text{
+            position: absolute;
+            width: 564px;
+            height: 87px;
+            left: 322px;
+            top: 295px;
+            font-weight: 400;
+            font-size: 18px;
+            line-height: 160%;
+            
+        }
+    }
+
+    &__group1516{
+        position: absolute;
+        width: 40px;
+        height: 107px;
+        left: 322px;
+        top: 426px;
+        &-360{
+            width: 37px;
+            height: 18px;
+            font-weight: 400;
+            font-size: 12px;
+            line-height: 150%;
+            display: flex;
+            align-items: flex-end;
+            text-align: center;
+            margin-left: 3px;
+        }
+        
+    }
+    &__group1517{
+        position: absolute;
+        width: 59px;
+        height: 127px;
+        left: 416px;
+        top: 426px;
+        &-960{
+            width: 37px;
+            height: 18px;
+            font-weight: 400;
+            font-size: 12px;
+            line-height: 150%;
+            display: flex;
+            align-items: flex-end;
+            text-align: center;
+            margin-left: 11px;
+        }
+    }
+    &__group1518{
+        position: absolute;
+        width: 141px;
+        height: 111px;
+        left: 529px;
+        top: 426px;
+        &-1366{
+            width: 39px;
+            height: 18px;
+            font-weight: 400;
+            font-size: 12px;
+            line-height: 150%;
+            display: flex;
+            align-items: flex-end;
+            text-align: center;
+            margin-left: 53px;
+
+        }
+    }
+    &__group1519{
+        position: absolute;
+        width: 133px;
+        height: 136px;
+        left: 724px;
+        top: 426px;
+        &-1920{
+            width: 40px;
+            height: 18px;
+            left: 772px;
+            top: 426px;
+            font-weight: 400;
+            font-size: 12px;
+            line-height: 150%;
+            display: flex;
+            align-items: flex-end;
+            text-align: center;
+            margin-left: 48px;
+
+        }
+    }
+
+    &__component27{
+        position: absolute;
+        width: 986px;
+        height: 626px;
+        left: 1052px;
+        top: 60px;
+        &-phone-img{
+            height: 596.53px;
+            width: 276.21px;
+            position: absolute;
+            left: 17px;
+            top: 14.99px;
+            border-radius: 36px;
+            
+        }
+        &-1{
+            position: absolute;
+            left: 37.53%;
+            right: 34.28%;
+            top: 2.08%;
+            bottom: 2.08%;
+            background: url(.png);
+            border-radius: 36px;
+        }
+        &-2{
+            position: absolute;
+            left: 71.81%;
+            right: 0%;
+            top: 2.08%;
+            bottom: 2.08%;
+            background: url(.png);
+            border-radius: 36px;
+        }
+
+    }
+    
+}
